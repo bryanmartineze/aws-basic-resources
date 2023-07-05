@@ -1,4 +1,4 @@
-#Generates some cpu usage
+#Generates some cpu usage with a simple script
 while true; do echo "some cpu usage"; done
 
 #Generate some activity on our system by installing stress 
