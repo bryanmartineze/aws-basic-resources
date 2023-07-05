@@ -1,3 +1,4 @@
+#Generates httpd service to test ALB
 #!/bin/bash  
 yum update -y
 yum install httpd -y

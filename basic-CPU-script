@@ -1,0 +1,7 @@
+#Generates some cpu usage
+while true; do echo "some cpu usage"; done
+
+#Generate some activity on our system by installing stress 
+sudo amazon-linux-extras install epel -y
+sudo yum install stress -y
+stress --cpu 1
